@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Zappy's Washes v1.0.0
 source 'https://rubygems.org'
 git_source(:github) { 'https://github.com/JoeYo24/ZappysWashes.git' }
 
