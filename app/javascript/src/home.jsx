@@ -1,12 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import AbcIcon from '@mui/icons-material/Abc';
+import "./home.scss";
 
 const Home = () => {
   return (
     <div>
       <h1 className="text-danger">Hello, World!</h1>
-      <AbcIcon />
+      <AbcIcon  className="abcIcon" />
     </div>
   );
 }
