@@ -30,6 +30,11 @@ gem 'jquery-rails'
 gem 'image_processing', '~> 1.2'
 # Use foreman to run multiple processes
 gem 'foreman'
+# Use Bootstrap for styling
+gem 'bootstrap', '~> 5.3', '>= 5.3.2'
+# bootstrap depenedencies
+gem 'autoprefixer-rails', '~> 10.4', '>= 10.4.16.0'
+gem 'popper_js', '~> 2.11', '>= 2.11.8'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
