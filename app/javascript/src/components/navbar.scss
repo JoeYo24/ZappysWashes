@@ -1,0 +1,11 @@
+#navbar-style {
+  background: linear-gradient(to bottom, #15226B 0%, #192777 25%, #20308d 50%, #254499 75%, #2d4ea8 90%, #2F86C8 100%);
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+
+  .nav-link {
+    color: #FAECE2 !important;
+  }
+}
