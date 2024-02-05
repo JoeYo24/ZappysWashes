@@ -27,7 +27,7 @@ const Navbar = () => {
           aria-label='Toggle navigation'
           onClick={() => showElement('.navbar-collapse')}
         >
-          <span className=''><MenuIcon /></span>
+          <span className='navTogglerIcon'><MenuIcon /></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
           <div className='me-auto ms-auto '>

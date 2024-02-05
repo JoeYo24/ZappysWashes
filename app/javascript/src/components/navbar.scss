@@ -27,6 +27,17 @@
     padding-left: 0;
     padding-right: 10px;
   }
+
+  .navbar-toggler {
+    border-color: #FAECE2 !important;
+    &:focus {
+      box-shadow: 0 0 10px 0 #FAECE2 !important;
+    }
+  }
+
+  .navTogglerIcon {
+    color: #FAECE2 !important;
+  }
 }
 
 .logo-img {
@@ -35,4 +46,5 @@
   margin: 0 !important;
   padding: 0 !important;
   size: cover !important;
+  color: #FAECE2 !important;
 }
