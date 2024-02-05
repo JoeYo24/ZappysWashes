@@ -1,11 +1,38 @@
 #navbar-style {
   background: linear-gradient(to bottom, #15226B 0%, #192777 25%, #20308d 50%, #254499 75%, #2d4ea8 90%, #2F86C8 100%);
-  margin: 0 !important;
   display: flex !important;
-  align-items: center !important;
-  justify-content: space-evenly !important;
 
   .nav-link {
     color: #FAECE2 !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
   }
+
+  .hoverEffect {
+    &:hover {
+      color: #CCCCCC;
+      box-shadow: 0 0 10px 0 #CCCCCC;
+    }
+  }
+  .navIcon {
+    color: #FAECE2 !important;
+  }
+
+  .buttonStyle {
+    background: transparent;
+    border: transparent;
+    padding: inherit;
+    margin: inherit;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+}
+
+.logo-img {
+  width: 170px !important;
+  height: 50px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  size: cover !important;
 }
