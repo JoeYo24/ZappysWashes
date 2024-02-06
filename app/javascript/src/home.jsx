@@ -13,7 +13,7 @@ const Home = () => {
         <DealCarousel />
       </div>
       <div className="d-flex container mb-5">
-        <div className="row w-100">
+        <div className="row w-100 ms-auto me-auto">
           <div className="col-12 col-lg-3">
             <a href="#" className="card-link">
               <div className="card-container rounded">
