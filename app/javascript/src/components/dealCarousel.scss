@@ -9,7 +9,7 @@
   margin-top: 10px;
 
   .carousel-item {
-    height: 20rem;
+    height: 10em;
     min-width: 100%;
     width: 100%;
     display: flex;
@@ -19,5 +19,10 @@
     background-image: url("https://zappys-washes-s3-bucket.s3.amazonaws.com/Cover%20Image%20-%201080x1920.png?AWSAccessKeyId=AKIA6OF7CZDJM3CZH36B&Expires=1767165610&Signature=tHh8dOUQxpP0SFy8sOolYuOAzwE%3D");
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: max-content;
+
+    @media screen and (max-width: 450px) {
+      max-height: 250px;
+    }
   }
 }

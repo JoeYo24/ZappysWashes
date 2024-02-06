@@ -1,3 +1,27 @@
-.abcIcon {
-  color:chocolate;
+.dealsHeader {
+  color: #333333;
+}
+body {
+  background-color: #F5F5F5 !important;
+}
+.card-container {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  align-items: center;
+  height: 200px;
+  color: #FAECE2;
+  font-weight: bold;
+  max-height: 400px;
+  background: linear-gradient(140deg, #15226B 0%, #192777 25%, #20308d 50%, #254499 75%, #2d4ea8 90%, #2F86C8 100%);
+  transition: background 10s ease;
+  &:hover {
+    background: linear-gradient(140deg, #2F86C8 0%, #2d4ea8 25%, #254499 50%, #20308d 75%, #192777 90%, #15226B 100%);
+  }
+}
+.card-link {
+  text-decoration: none;
 }
