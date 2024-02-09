@@ -25,3 +25,19 @@ body {
 .card-link {
   text-decoration: none;
 }
+
+.scroll-component {
+  overflow-x: hidden;
+}
+
+.filterContainer {
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #333333;
+}
+
+.footer {
+  background-color: lightgray;
+  
+}

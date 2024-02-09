@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg' id='navbar-style'>
       <div className='container-fluid'>
         <a className='navbar-brand' href='/'>
-          <img src="https://zappys-washes-s3-bucket.s3.amazonaws.com/Main%20Logo_Zappy%27s%5BBlack%5D.png?AWSAccessKeyId=AKIA6OF7CZDJM3CZH36B&Expires=1707152924&Signature=Wv0WoIJjeFyWpcHWqmTYvX608Gg%3D" alt="Zappy's Washes" className='logo-img rounded' />
+          <img src="https://zappys-washes-s3-bucket.s3.amazonaws.com/Main%20Logo_Zappy%27s%5BWhite%5D.png?AWSAccessKeyId=AKIA6OF7CZDJM3CZH36B&Expires=1767500479&Signature=s1duqC7%2FPui%2FQcqWPc%2FEPcWtjBE%3D" alt="Zappy's Washes" className='logo-img rounded' />
         </a>
         <button 
           className='navbar-toggler'

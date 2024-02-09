@@ -1,0 +1,32 @@
+.scroll-container {
+  flex-direction: row;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.location {
+  flex: 0 0 auto; 
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+  background-color: #ccc;
+}
+
+.scroll-button {
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none; 
+  font-size: 24px;
+  cursor: pointer;
+
+  &.left {
+    left: 10px;
+  }
+  
+  &.right {
+    right: 10px;
+  }
+}
